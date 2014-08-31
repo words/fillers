@@ -59,6 +59,7 @@ Note that the words listed in **fillers** _might_ or, in fact, _might_ not be fi
 
 ## Related
 
+- [hedges](https://github.com/wooorm/hedges) — List of hedge words;
 - [weasels](https://github.com/wooorm/weasels) — List of weasel words.
 
 ## License
