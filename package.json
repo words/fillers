@@ -28,7 +28,7 @@
     "lint-style": "node_modules/.bin/jscs index.js build-data.js build-supported-words.js spec/fillers.spec.js --reporter=inline",
     "install-browser-test": "npm install browserify",
     "build-data": "node build-data.js",
-    "build-supported-fillers": "node build-supported-fillers.js",
+    "build-supported-words": "node build-supported-words.js",
     "build-browser-test": "node_modules/.bin/browserify spec/fillers.spec.js -o spec/browser.spec.js",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/fillers.spec.js",
     "prepublish": "npm run build-data && npm run build-supported-words",
