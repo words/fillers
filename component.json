@@ -9,10 +9,13 @@
     "list"
   ],
   "repository": "wooorm/fillers",
-  "scripts" : [
+  "scripts": [
     "index.js"
   ],
-  "json" : [
+  "json": [
     "data/fillers.json"
-  ]
+  ],
+  "dependencies": {
+    "wooorm/datalist-interface": "~0.0.1"
+  }
 }

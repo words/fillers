@@ -50,5 +50,8 @@
       "iphone/latest",
       "android-browser/latest"
     ]
+  },
+  "dependencies": {
+    "datalist-interface": "0.0.1"
   }
 }
