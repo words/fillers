@@ -1,0 +1,28 @@
+{
+  "name": "fillers",
+  "main": "index.js",
+  "description": "List of (possible) English filler words",
+  "license": "MIT",
+  "keywords": [
+    "filler",
+    "word",
+    "list"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/fillers.git"
+  },
+  "authors": [
+    "Titus Wormer <tituswormer@gmail.com>"
+  ],
+  "ignore": [
+    ".*",
+    "*.log",
+    "*.md",
+    "component.json",
+    "package.json",
+    "coverage",
+    "node_modules",
+    "spec"
+  ]
+}
