@@ -61,6 +61,7 @@ Note that the words listed in **fillers** _might_ or, in fact, _might_ not be fi
 
 - [buzzwords](https://github.com/wooorm/buzzwords) — List of buzzwords;
 - [hedges](https://github.com/wooorm/hedges) — List of hedge words;
+- [profanities](https://github.com/wooorm/profanities) — List of profane words;
 - [weasels](https://github.com/wooorm/weasels) — List of weasel words.
 
 ## License
