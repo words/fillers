@@ -1,9 +1,18 @@
 'use strict';
 
-var fillers, assert;
+/**
+ * Dependencies.
+ */
+
+var fillers,
+    assert;
 
 fillers = require('./');
 assert = require('assert');
+
+/**
+ * Tests.
+ */
 
 describe('fillers', function () {
     it('should be an `Object`', function () {
@@ -59,9 +68,11 @@ describe('fillers.add(filler) and fillers.remove(filler)', function () {
         assert(fillers.is('unicorn') === false);
 
         fillers.add('unicorn');
+
         assert(fillers.is('unicorn') === true);
 
         fillers.remove('unicorn');
+
         assert(fillers.is('unicorn') === false);
     });
 
@@ -70,10 +81,12 @@ describe('fillers.add(filler) and fillers.remove(filler)', function () {
         assert(fillers.is('rainbow') === false);
 
         fillers.add('unicorn', 'rainbow');
+
         assert(fillers.is('unicorn') === true);
         assert(fillers.is('rainbow') === true);
 
         fillers.remove('unicorn', 'rainbow');
+
         assert(fillers.is('unicorn') === false);
         assert(fillers.is('rainbow') === false);
     });
@@ -81,7 +94,9 @@ describe('fillers.add(filler) and fillers.remove(filler)', function () {
     it('should fail silently when removing a non-existing filler',
         function () {
             assert(fillers.is('unicorn') === false);
+
             fillers.remove('unicorn');
+
             assert(fillers.is('unicorn') === false);
         }
     );
