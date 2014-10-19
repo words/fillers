@@ -26,10 +26,9 @@
     "components/",
     "coverage/",
     "node_modules/",
-    "spec/",
-    "benchmark.js",
+    "test.js",
     "component.json",
     "package.json",
-    "data/buzzwords.txt"
+    "data/fillers.txt"
   ]
 }

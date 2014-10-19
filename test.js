@@ -2,7 +2,7 @@
 
 var fillers, assert;
 
-fillers = require('..');
+fillers = require('./');
 assert = require('assert');
 
 describe('fillers', function () {
