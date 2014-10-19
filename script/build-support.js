@@ -3,8 +3,8 @@
 var fs = require('fs'),
     words = require('../data/fillers.json');
 
-fs.writeFileSync('Supported-filler-words.md',
-    'Supported Filler-words\n' +
+fs.writeFileSync('Supported-words.md',
+    'Supported words\n' +
     '=================\n' +
     '\n' +
 

@@ -1,4 +1,4 @@
-Supported Filler-words
+Supported words
 =================
 
 * “absolutely”;
