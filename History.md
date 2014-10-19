@@ -1,5 +1,5 @@
 
-n.n.n / 2014-10-19
+0.2.0 / 2014-10-19
 ==================
 
  * Add pretty output to build-step
