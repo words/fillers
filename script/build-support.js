@@ -1,7 +1,7 @@
 'use strict';
 
 var fs = require('fs'),
-    words = require('./data/fillers.json');
+    words = require('../data/fillers.json');
 
 fs.writeFileSync('Supported-filler-words.md',
     'Supported Filler-words\n' +
