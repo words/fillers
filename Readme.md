@@ -1,4 +1,4 @@
-# fillers [![Build Status](https://travis-ci.org/wooorm/fillers.svg?branch=master)](https://travis-ci.org/wooorm/fillers) [![Coverage Status](https://img.shields.io/coveralls/wooorm/fillers.svg)](https://coveralls.io/r/wooorm/fillers?branch=master)
+# fillers [![Build Status](https://img.shields.io/travis/wooorm/fillers.svg?style=flat)](https://travis-ci.org/wooorm/fillers) [![Coverage Status](https://img.shields.io/coveralls/wooorm/fillers.svg?style=flat)](https://coveralls.io/r/wooorm/fillers?branch=master)
 
 List of, _like_, English (both British and American) filler words.
 
