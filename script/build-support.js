@@ -1,15 +1,26 @@
 'use strict';
 
-var fs = require('fs'),
-    words = require('../data/fillers.json');
+/**
+ * Dependencies.
+ */
+
+var fs,
+    fillers;
+
+fs = require('fs');
+fillers = require('..');
+
+/**
+ * Write.
+ */
 
 fs.writeFileSync('Supported-words.md',
     'Supported words\n' +
     '=================\n' +
     '\n' +
 
-    words.map(function (word) {
-        return '* “' + word + '”';
+    fillers.all().map(function (filler) {
+        return '* “' + filler + '”';
     }).join(';\n') +
 
     '.\n'
