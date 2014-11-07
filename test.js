@@ -31,29 +31,26 @@ describe('fillers.is(word)', function () {
 });
 
 describe('fillers.all()', function () {
-    var all = fillers.all();
+    var all;
+
+    all = fillers.all();
 
     it('should return an array', function () {
         assert('length' in all);
+
         assert(typeof all === 'object');
     });
 
     it('every entry should be lowercase', function () {
-        var iterator = -1,
-            length = all.length;
-
-        while (++iterator < length) {
-            assert(all[iterator].toLowerCase() === all[iterator]);
-        }
+        all.forEach(function (value) {
+            assert(value.toLowerCase() === value);
+        });
     });
 
     it('every entry should only occur once', function () {
-        var iterator = -1,
-            length = all.length;
-
-        while (++iterator < length) {
-            assert(all.indexOf(all[iterator], iterator + 1) === -1);
-        }
+        all.forEach(function (value, index) {
+            assert(all.indexOf(value, index + 1) === -1);
+        });
     });
 
     it('should be immutable', function () {
