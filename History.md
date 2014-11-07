@@ -1,4 +1,17 @@
 
+n.n.n / 2014-11-07
+==================
+
+ * Refactor scripts
+ * Refactor npm script target order in `package.json`
+ * Add flat badges to `Readme.md`
+ * Remove `before_install` travis target
+ * Refactor test
+ * Add `.eslintrc`
+ * Refactor `.jscs.json`
+ * Refactor to disallow space after object keys
+ * Update eslint, mocha
+
 0.2.0 / 2014-10-19
 ==================
 
