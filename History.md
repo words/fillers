@@ -1,5 +1,5 @@
 
-n.n.n / 2014-12-20
+0.2.2 / 2014-12-20
 ==================
 
   * Move `Supported-words.md` to `Support.md`
