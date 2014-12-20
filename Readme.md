@@ -66,4 +66,4 @@ Note that the words listed in **fillers** _might_ or, in fact, _might_ not be fi
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
