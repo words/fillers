@@ -21,6 +21,7 @@
   "ignore": [
     ".*",
     "*.log",
+    "*.txt",
     "*.md",
     "build/",
     "components/",
@@ -29,7 +30,6 @@
     "script/",
     "test.js",
     "component.json",
-    "package.json",
-    "data/fillers.txt"
+    "package.json"
   ]
 }

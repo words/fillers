@@ -14,7 +14,7 @@ fillers = require('..');
  * Write.
  */
 
-fs.writeFileSync('Supported-words.md',
+fs.writeFileSync('Support.md',
     'Supported words\n' +
     '=================\n' +
     '\n' +

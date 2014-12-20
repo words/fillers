@@ -53,7 +53,7 @@ _Basically_, return the values (as an Array) in the internal database.
 
 ## Supported words
 
-For a complete list of supported filler words and phrases, _like_, see [Supported-words.md](Supported-words.md).
+For a complete list of supported filler words and phrases, _like_, see [Support.md](Support.md).
 
 Note that the words listed in **fillers** _might_ or, in fact, _might_ not be fillers.
 
