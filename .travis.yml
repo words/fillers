@@ -1,13 +1,25 @@
 language: node_js
-script: npm run-script test-travis
 node_js:
 - '0.10'
 - '0.11'
-after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
+- '0.12'
+- '4.0'
+- '5.0'
+- iojs
+sudo: false
+after_script: npm install codecov.io && cat ./coverage/lcov.info | codecov
 deploy:
-  provider: npm
-  email: tituswormer@gmail.com
-  api_key:
-    secure: kVRUR6vE8yHb3zDblXnup0k6t8p7max0aK++DYBZCSpnIF+rIzqTjg4FdDv8Hv0Hdi/52PiYrBSBw8VdCRGhQlwmVXzNOllAy7+ucZya9zlpmpvken7bjQDifgbKqkxplMyNaUgLggDTEVyfIcPbBAagiV/hrp+M6/viLw++GN0=
-  on:
-    repo: wooorm/fillers
+  - provider: npm
+    email: tituswormer@gmail.com
+    api_key:
+        secure: WWCHUxJuIhbjEq6bOcCAWNuwATqpPexv77WOe08M+UCMhIIQo1FoQxrVBittoKDN2ZrAiT58/ehaTq5x3lljqvJuFACdMkVl7DqI8PDfb3Yi9XYgCt4QsZ8hr1GLpkkpsRcn/inOIME05TtNZULmrCjVKYOP7NZIwYC/5lK11H8=
+    on:
+      tags: true
+  - provider: releases
+    api_key:
+        secure: LgbEAk2VADSEeFjsuxIpuhAGT+pIntK5Zn6wjpW+TJ/EAzd2BjlO93E35EksrdGusofUi6Ygud1dm+9vbMUFFH/ZaGzzR1zXawp0Yt2FjEfxW1mzCwaXMPkUBOWoCoXdyvASnmBmpKmAXPVin18H9y1aqGnXjE1wHwalNgsqvdE=
+    file:
+      - "fillers.js"
+      - "fillers.min.js"
+    on:
+      tags: true

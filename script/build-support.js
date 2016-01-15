@@ -1,27 +1,31 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2016 Titus Wormer
+ * @license MIT
+ * @module fillers:script:build-data
+ * @fileoverview Generate a database from source.
+ */
+
 'use strict';
+
+/* eslint-env node */
 
 /*
  * Dependencies.
  */
 
-var fs,
-    fillers;
-
-fs = require('fs');
-fillers = require('..');
+var fs = require('fs');
+var path = require('path');
+var data = require('../data');
 
 /*
  * Write.
  */
 
-fs.writeFileSync('Support.md',
-    'Supported words\n' +
-    '=================\n' +
-    '\n' +
-
-    fillers.all().map(function (filler) {
-        return '* “' + filler + '”';
-    }).join(';\n') +
-
-    '.\n'
-);
+fs.writeFileSync(path.join('support.md'), [].concat(
+    ['# Support', ''],
+    data.map(function (value) {
+        return '*   “' + value + '”';
+    }).join(';\n') + '.',
+    ''
+).join('\n'));

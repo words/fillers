@@ -1,23 +1,17 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2016 Titus Wormer
+ * @license MIT
+ * @module fillers
+ * @fileoverview List of (possible) English filler words.
+ */
+
 'use strict';
 
-/*
- * Dependencies.
- */
-
-var Interface;
-
-Interface = require('datalist-interface');
+/* eslint-env commonjs */
 
 /*
- * Data.
+ * Expose.
  */
 
-var words;
-
-words = require('./data/fillers.json');
-
-/*
- * Expose fillers.
- */
-
-module.exports = new Interface(words);
+module.exports = require('./data/index.json');

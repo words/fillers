@@ -1,38 +1,38 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2016 Titus Wormer
+ * @license MIT
+ * @module fillers:script:build-data
+ * @fileoverview Generate a database.
+ */
+
 'use strict';
 
-/*
- * Dependencies.
- */
-
-var fs,
-    textToJSON;
-
-fs = require('fs');
-textToJSON = require('plain-text-data-to-json');
+/* eslint-env node */
 
 /*
  * Dependencies.
  */
 
-var data;
-
-data = textToJSON(fs.readFileSync('data/fillers.txt', 'utf8'));
+var fs = require('fs');
+var path = require('path');
+var textToJSON = require('plain-text-data-to-json');
 
 /*
- * Make sure no upper- or mixed-case values exist.
+ * Constants.
  */
 
-data.forEach(function (word) {
-    if (word.toLowerCase() !== word) {
-        throw new Error(
-            'Mixed-case entry `' + word + '`. ' +
-            'Please ensure all entries are lower case.'
-        );
-    }
-});
+var INPUT = path.join('data', 'index.txt');
+var OUTPUT = path.join('data', 'index.json');
+
+/*
+ * Read.
+ */
+
+var data = textToJSON(fs.readFileSync(INPUT, 'utf8'));
 
 /*
  * Write.
  */
 
-fs.writeFileSync('data/fillers.json', JSON.stringify(data, null, 2));
+fs.writeFileSync(OUTPUT, JSON.stringify(data, null, 2) + '\n');

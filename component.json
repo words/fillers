@@ -8,14 +8,12 @@
     "word",
     "list"
   ],
-  "dependencies": {
-    "wooorm/datalist-interface": "^0.2.0"
-  },
   "repository": "wooorm/fillers",
+  "dependencies": {},
   "scripts": [
     "index.js"
   ],
   "json": [
-    "data/fillers.json"
+    "data/index.json"
   ]
 }
