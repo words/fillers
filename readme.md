@@ -10,9 +10,6 @@ List of, _like_, English (both British and American) filler words.
 npm install fillers
 ```
 
-**fillers** is also available for [duo][duo-install], and as an
-AMD, CommonJS, and globals module, [uncompressed and compressed][releases].
-
 ## Usage
 
 ```js
@@ -25,52 +22,45 @@ console.log(fillers.slice(0, 10));
 
 Yields:
 
-```json
-[
-  "absolutely",
-  "actual",
-  "actually",
-  "anyway",
-  "apparently",
-  "approximately",
-  "badly",
-  "basically",
-  "begin",
-  "certainly"
-]
+```js
+[ 'a',
+  'able',
+  'aboard',
+  'about',
+  'above',
+  'absent',
+  'accept',
+  'accident',
+  'account',
+  'ache' ]
 ```
 
 ## API
 
 ### `fillers`
 
-**Type**: `Array.<string>` — _So_, **fillers** exposes a list of strings.
+_So_, **fillers** exposes a list of strings. (`Array.<string>`).
 
 ## Support
 
 For a complete list of supported filler words and phrases, _like_, see
-[Support.md][support].
+[index.json][data].
 
-Note that the words listed in **fillers** _might_ or, in fact, _might_ not be
-fillers.
+Note that the words listed in **fillers** _might_ or, in fact, _might_
+not be fillers.
 
 ## Related
 
 *   [buzzwords](https://github.com/wooorm/buzzwords)
     — List of buzzwords;
-
 *   [dale-chall](https://github.com/wooorm/dale-chall)
     — List of familiar American-English words (1995);
-
 *   [hedges](https://github.com/wooorm/hedges)
     — List of hedge words;
-
 *   [profanities](https://github.com/wooorm/profanities)
     — List of profane words;
-
 *   [spache](https://github.com/wooorm/spache)
     — List of simple American-English words (1974);
-
 *   [weasels](https://github.com/wooorm/weasels)
     — List of weasel words.
 
@@ -90,12 +80,8 @@ fillers.
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
-[duo-install]: http://duojs.org/#getting-started
-
-[releases]: https://github.com/wooorm/fillers/releases
-
 [license]: LICENSE
 
-[support]: support.md
-
 [author]: http://wooorm.com
+
+[data]: index.json

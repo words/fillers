@@ -2,7 +2,7 @@
 % - Every entry on a single line;
 % - Line-comments with a percentage-sign;
 % - Empty lines are ignored;
-% - Make sure both British and American (Australian, Canadaian) English
+% - Make sure both British and American (Australian, Canadian) English
 %   are covered.
 
 % Sources:
