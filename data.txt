@@ -12,6 +12,7 @@
 absolutely
 actual
 actually
+amazing
 anyway
 apparently
 approximately
@@ -73,7 +74,9 @@ so
 specifically
 start
 strongly
+stuff
 surely
+things
 too
 totally
 truly
