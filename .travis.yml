@@ -1,9 +1,8 @@
 language: node_js
 node_js:
 - '4.0'
-- '5.0'
-- '6.0'
-after_success: bash <(curl -s https://codecov.io/bash)
+- '7.0'
+after_script: bash <(curl -s https://codecov.io/bash)
 sudo: false
 deploy:
   - provider: npm
@@ -12,7 +11,7 @@ deploy:
       secure: WWCHUxJuIhbjEq6bOcCAWNuwATqpPexv77WOe08M+UCMhIIQo1FoQxrVBittoKDN2ZrAiT58/ehaTq5x3lljqvJuFACdMkVl7DqI8PDfb3Yi9XYgCt4QsZ8hr1GLpkkpsRcn/inOIME05TtNZULmrCjVKYOP7NZIwYC/5lK11H8=
     on:
       tags: true
-      node: '5.0'
+      node: '4.0'
   - provider: releases
     api_key:
       secure: LgbEAk2VADSEeFjsuxIpuhAGT+pIntK5Zn6wjpW+TJ/EAzd2BjlO93E35EksrdGusofUi6Ygud1dm+9vbMUFFH/ZaGzzR1zXawp0Yt2FjEfxW1mzCwaXMPkUBOWoCoXdyvASnmBmpKmAXPVin18H9y1aqGnXjE1wHwalNgsqvdE=
@@ -21,4 +20,4 @@ deploy:
       - "fillers.min.js"
     on:
       tags: true
-      node: '6.0'
+      node: '7.0'
