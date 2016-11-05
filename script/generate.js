@@ -1,11 +1,3 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module fillers:script
- * @fileoverview Generate a dictionary of entity names to replacements.
- */
-
 'use strict';
 
 /* Dependencies. */
