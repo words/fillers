@@ -1,4 +1,4 @@
-# fillers [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# fillers [![Build Status][travis-badge]][travis]
 
 List of, _like_, English (both British and American) filler words.
 
@@ -73,10 +73,6 @@ not be fillers.
 [travis-badge]: https://img.shields.io/travis/wooorm/fillers.svg
 
 [travis]: https://travis-ci.org/wooorm/fillers
-
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/fillers.svg
-
-[codecov]: https://codecov.io/github/wooorm/fillers
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
