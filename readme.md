@@ -4,7 +4,7 @@ List of, _like_, English (both British and American) filler words.
 
 ## Installation
 
-[npm][npm-install]:
+[npm][]:
 
 ```bash
 npm install fillers
@@ -15,7 +15,7 @@ npm install fillers
 ```js
 var fillers = require('fillers');
 
-fillers.length; // 80
+fillers.length; //=> 80
 
 console.log(fillers.slice(0, 10));
 ```
@@ -39,7 +39,7 @@ Yields:
 
 ### `fillers`
 
-_So_, **fillers** exposes a list of strings. (`Array.<string>`).
+_So_, `fillers` exposes a list of strings. (`Array.<string>`).
 
 ## Support
 
@@ -51,18 +51,18 @@ not be fillers.
 
 ## Related
 
-*   [buzzwords](https://github.com/wooorm/buzzwords)
-    — List of buzzwords;
-*   [dale-chall](https://github.com/wooorm/dale-chall)
-    — List of familiar American-English words (1995);
-*   [hedges](https://github.com/wooorm/hedges)
-    — List of hedge words;
-*   [profanities](https://github.com/wooorm/profanities)
-    — List of profane words;
-*   [spache](https://github.com/wooorm/spache)
-    — List of simple American-English words (1974);
-*   [weasels](https://github.com/wooorm/weasels)
-    — List of weasel words.
+*   [`buzzwords`](https://github.com/wooorm/buzzwords)
+    — List of buzzwords
+*   [`dale-chall`](https://github.com/wooorm/dale-chall)
+    — List of familiar American-English words (1995)
+*   [`hedges`](https://github.com/wooorm/hedges)
+    — List of hedge words
+*   [`profanities`](https://github.com/wooorm/profanities)
+    — List of profane words
+*   [`spache`](https://github.com/wooorm/spache)
+    — List of simple American-English words (1974)
+*   [`weasels`](https://github.com/wooorm/weasels)
+    — List of weasel words
 
 ## License
 
@@ -74,7 +74,7 @@ not be fillers.
 
 [travis]: https://travis-ci.org/wooorm/fillers
 
-[npm-install]: https://docs.npmjs.com/cli/install
+[npm]: https://docs.npmjs.com/cli/install
 
 [license]: LICENSE
 
