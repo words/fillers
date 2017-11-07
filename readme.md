@@ -70,9 +70,9 @@ not be fillers.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/fillers.svg
+[travis-badge]: https://img.shields.io/travis/words/fillers.svg
 
-[travis]: https://travis-ci.org/wooorm/fillers
+[travis]: https://travis-ci.org/words/fillers
 
 [npm]: https://docs.npmjs.com/cli/install
 

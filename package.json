@@ -8,8 +8,8 @@
     "word",
     "list"
   ],
-  "repository": "https://github.com/wooorm/fillers",
-  "bugs": "https://github.com/wooorm/fillers/issues",
+  "repository": "words/fillers",
+  "bugs": "https://github.com/words/fillers/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
