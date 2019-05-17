@@ -1,6 +1,6 @@
 # fillers [![Build Status][travis-badge]][travis]
 
-List of, _like_, English (both British and American) filler words.
+List of, *like*, English (both British and American) filler words.
 
 ## Installation
 
@@ -39,14 +39,14 @@ Yields:
 
 ### `fillers`
 
-_So_, `fillers` exposes a list of strings. (`Array.<string>`).
+*So*, `fillers` exposes a list of strings. (`Array.<string>`).
 
 ## Support
 
-For a complete list of supported filler words and phrases, _like_, see
+For a complete list of supported filler words and phrases, *like*, see
 [index.json][data].
 
-Note that the words listed in **fillers** _might_ or, in fact, _might_
+Note that the words listed in **fillers** *might* or, in fact, *might*
 not be fillers.
 
 ## Related
