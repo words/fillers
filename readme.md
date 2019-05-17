@@ -43,7 +43,7 @@ Yields:
 
 ### `fillers`
 
-*So*, `fillers` exposes a list of strings. (`Array.<string>`).
+*So*, `fillers` exposes a list of strings (`Array.<string>`).
 
 ## Support
 
