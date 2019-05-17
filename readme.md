@@ -1,4 +1,8 @@
-# fillers [![Build Status][travis-badge]][travis]
+# fillers
+
+[![Build][build-badge]][build]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 List of, *like*, English (both British and American) filler words.
 
@@ -70,9 +74,17 @@ not be fillers.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/words/fillers.svg
+[build-badge]: https://img.shields.io/travis/words/fillers.svg
 
-[travis]: https://travis-ci.org/words/fillers
+[build]: https://travis-ci.org/words/fillers
+
+[downloads-badge]: https://img.shields.io/npm/dm/fillers.svg
+
+[downloads]: https://www.npmjs.com/package/fillers
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/fillers.svg
+
+[size]: https://bundlephobia.com/result?p=fillers
 
 [npm]: https://docs.npmjs.com/cli/install
 
