@@ -13,11 +13,11 @@ npm install fillers
 ## Usage
 
 ```js
-var fillers = require('fillers');
+var fillers = require('fillers')
 
-fillers.length; //=> 80
+console.log(fillers.length) //=> 80
 
-console.log(fillers.slice(0, 10));
+console.log(fillers.slice(0, 10))
 ```
 
 Yields:
