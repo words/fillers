@@ -1,23 +1,15 @@
 language: node_js
-node_js:
-- '4.0'
-- '9.0'
 sudo: false
+node_js:
+  - lts/dubnium
+  - node
 deploy:
-  - provider: npm
-    email: tituswormer@gmail.com
-    api_key:
-      secure: WWCHUxJuIhbjEq6bOcCAWNuwATqpPexv77WOe08M+UCMhIIQo1FoQxrVBittoKDN2ZrAiT58/ehaTq5x3lljqvJuFACdMkVl7DqI8PDfb3Yi9XYgCt4QsZ8hr1GLpkkpsRcn/inOIME05TtNZULmrCjVKYOP7NZIwYC/5lK11H8=
-    on:
-      tags: true
-      node: '9.0'
-  - provider: releases
-    skip_cleanup: true
-    api_key:
-      secure: LgbEAk2VADSEeFjsuxIpuhAGT+pIntK5Zn6wjpW+TJ/EAzd2BjlO93E35EksrdGusofUi6Ygud1dm+9vbMUFFH/ZaGzzR1zXawp0Yt2FjEfxW1mzCwaXMPkUBOWoCoXdyvASnmBmpKmAXPVin18H9y1aqGnXjE1wHwalNgsqvdE=
-    file:
-      - "fillers.js"
-      - "fillers.min.js"
-    on:
-      tags: true
-      node: '9.0'
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: kJo30zi7hfoDux0eB+8ZbIHZ4Q7HIsX73TltIb2YtrBaVZa9N3AtLA8E1y+pzXiI/ZC69YjasBLoiFgXSSJuv3FWNiuMJ7/z2n98gLKYX5Ak823vL9/tITYdyRZTO2dXqy6UYbiX1rccCBoTSoYrHe3/52WspmJkWwPPXeREBI4=
+  file:
+    - 'fillers.js'
+    - 'fillers.min.js'
+  on:
+    tags: true
