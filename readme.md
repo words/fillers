@@ -6,15 +6,15 @@
 
 List of, *like*, English (both British and American) filler words.
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install fillers
 ```
 
-## Usage
+## Use
 
 ```js
 var fillers = require('fillers')
@@ -48,10 +48,10 @@ Yields:
 ## Support
 
 For a complete list of supported filler words and phrases, *like*, see
-[index.json][data].
+[`index.json`][data].
 
-Note that the words listed in **fillers** *might* or, in fact, *might*
-not be fillers.
+Note that the words listed in **fillers** *might* or, in fact, *might* not be
+fillers.
 
 ## Related
 
