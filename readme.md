@@ -9,6 +9,9 @@ List of, *like*, English (both British and American) filler words.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -18,7 +21,7 @@ npm install fillers
 ## Use
 
 ```js
-var fillers = require('fillers')
+import {fillers} from 'fillers'
 
 console.log(fillers.length) //=> 80
 
@@ -42,6 +45,9 @@ Yields:
 
 ## API
 
+This package exports the following identifiers: `fillers`.
+There is no default export.
+
 ### `fillers`
 
 *So*, `fillers` exposes a list of strings (`Array.<string>`).
@@ -49,7 +55,7 @@ Yields:
 ## Support
 
 For a complete list of supported filler words and phrases, *like*, see
-[`index.json`][data].
+[`index.js`][data].
 
 Note that the words listed in **fillers** *might* or, in fact, *might* not be
 fillers.
@@ -97,4 +103,4 @@ fillers.
 
 [author]: https://wooorm.com
 
-[data]: index.json
+[data]: index.js
