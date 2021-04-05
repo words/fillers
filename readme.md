@@ -1,6 +1,7 @@
 # fillers
 
 [![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
@@ -74,9 +75,13 @@ fillers.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/words/fillers.svg
+[build-badge]: https://github.com/words/fillers/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/words/fillers
+[build]: https://github.com/words/fillers/actions
+
+[coverage-badge]: https://img.shields.io/codecov/c/github/words/fillers.svg
+
+[coverage]: https://codecov.io/github/words/fillers
 
 [downloads-badge]: https://img.shields.io/npm/dm/fillers.svg
 
