@@ -1,4 +1,4 @@
-export var fillers = [
+export const fillers = [
   'absolutely',
   'actual',
   'actually',
