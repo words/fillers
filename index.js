@@ -1,3 +1,6 @@
+/**
+ * List of, *like*, English (both British and American) filler words.
+ */
 export const fillers = [
   'absolutely',
   'actual',
